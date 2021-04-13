@@ -2,8 +2,10 @@
 Feature extraction (Module 1) packages for PixelHop/PixelHop++.
 
 ### Introduction
-This is an implementation by Yijing Yang for the paper [PixelHop++: A Small Successive-Subspace-Learning-Based (SSL-based) Model for Image Classification](https://arxiv.org/abs/2002.03141). \\
-It is modified based on [Chengyao Wang's implementation](https://github.com/ChengyaoWang/PixelHop-_c-wSaab) (**ObjectOriented / Numpy** version), with lower memory cost. \\
+This is an implementation by Yijing Yang for the paper [PixelHop++: A Small Successive-Subspace-Learning-Based (SSL-based) Model for Image Classification](https://arxiv.org/abs/2002.03141). \
+
+It is modified based on [Chengyao Wang's implementation](https://github.com/ChengyaoWang/PixelHop-_c-wSaab) (**ObjectOriented / Numpy** version), with lower memory cost. \
+
 Note that this is not the official implementation. 
 
 ### Installation
