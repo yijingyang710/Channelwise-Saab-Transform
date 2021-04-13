@@ -1,11 +1,13 @@
 # Channelwise-Saab-Transform
-Feature extraction (Module 1) for PixelHop/PixelHop++
+Feature extraction (Module 1) packages for PixelHop/PixelHop++.
 
 ### Introduction
-This is an implementation by Yijing Yang for the paper [PixelHop++: A Small Successive-Subspace-Learning-Based (SSL-based) Model for Image Classification](https://arxiv.org/abs/2002.03141). It is modified based on [Chengyao Wang's implementation (**ObjectOriented / Numpy** version)](https://github.com/ChengyaoWang/PixelHop-_c-wSaab). Note that this is not the official implementation. 
+This is an implementation by Yijing Yang for the paper [PixelHop++: A Small Successive-Subspace-Learning-Based (SSL-based) Model for Image Classification](https://arxiv.org/abs/2002.03141). \
+It is modified based on [Chengyao Wang's implementation (**ObjectOriented / Numpy** version)](https://github.com/ChengyaoWang/PixelHop-_c-wSaab), with lower memory cost. \
+Note that this is not the official implementation. 
 
 ### Installation
-You need to install numpy and sklearn packages to use the code.
+This code has been tested with Python 3.7. You may need to install numpy and numba (and scikit-learn to try the examples) to use the code.
 
 ### Contents
 `saab.py`: Saab transform.\
