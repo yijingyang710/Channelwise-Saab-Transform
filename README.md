@@ -12,8 +12,8 @@ Note that this is not the official implementation.
 This code has been tested with Python 3.7. You may need to install numpy and numba (and scikit-learn to try the examples) to use the code.
 
 ### Contents
-`saab.py`: Saab transform.\
-`cwSaab.py`: Channel-wise Saab transform. Use energy threshold `TH1` and `TH2` to choose intermediate nodes and leaf nodes, respectively. Set `'cw'` to `'False'`  in order to turn off the channel-wise structure.\
-`pixelhop.py`: Built upon `cwSaab.py` with additional functions of saving models, loading models, and concatenation operation across Hops.\
-Example of usage can be found at the bottom of each file. \
+*`saab.py`: Saab transform.\
+*`cwSaab.py`: Channel-wise Saab transform. Use energy threshold `TH1` and `TH2` to choose intermediate nodes and leaf nodes, respectively. Set `'cw'` to `'False'`  in order to turn off the channel-wise structure.\
+*`pixelhop.py`: Built upon `cwSaab.py` with additional functions of saving models, loading models, and concatenation operation across Hops.\
+*Example of usage can be found at the bottom of each file. \
 **Note**: All the images or data that are fed into these functions should be in the `channel last` format.
