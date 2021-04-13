@@ -241,11 +241,9 @@ class cwSaab():
         output: a list of transformed feature maps
         '''
         assert (self.trained == True), "Must call fit first!"
-        
         output = []
         X = self.cwSaab_1_layer(X, train = False)
         output.append(X)
-        
         for i in range(1, self.depth):
             X = self.cwSaab_n_layer(X, train=False, layer=i)
             output.append(X)
@@ -266,7 +264,6 @@ class cwSaab():
         output: transformed feature maps (N, H2, W2, C2)
         '''
         assert (self.trained == True), "Must call fit first!"
-        
         if layer==0:
             output = self.cwSaab_1_layer(X, train = False)
         else:
