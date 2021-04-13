@@ -218,18 +218,14 @@ class cwSaab():
         '''train and learn cwsaab/saab kernels'''
         X = self.cwSaab_1_layer(X, train=True)
         print('=' * 45 + '>c/w Saab Train Hop 1')
-        
         for i in range(1, self.depth):
             X = self.cwSaab_n_layer(X, train = True, layer = i)
-            
             if (self.split == False and self.SaabArgs[i]['cw'] == True):
                 self.depth = i
                 print("       <WARNING> Cannot futher split, actual depth: %s"%str(i))
                 break
-            
             print('=' * 45 + f'>c/w Saab Train Hop {i+1}')
             self.split = False
-            
         self.trained = True
 
     def transform(self, X):
