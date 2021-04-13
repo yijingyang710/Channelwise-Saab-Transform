@@ -1,6 +1,6 @@
 # v 2021.04.12
 # PixelHop and PixelHop++ (Module 1)
-# modified from https://github.com/ChengyaoWang/PixelHop-_c-wSaab/blob/master/saab.py
+# modified from https://github.com/ChengyaoWang/PixelHop-_c-wSaab/blob/master/pixelhop2.py
 
 from cwSaab import cwSaab
 import pickle
