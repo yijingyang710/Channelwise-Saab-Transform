@@ -17,4 +17,4 @@ This code has been tested with Python 3.7. You may need to install numpy and num
 * `pixelhop.py`: Built upon `cwSaab.py` with additional functions of saving models, loading models, and concatenation operation across Hops.
 * Example of usage can be found at the bottom of each file. 
 
-  **Note**: All the images or data that are fed into these functions should be in the `channel last` format.
+ **Note**: All the images or data that are fed into these functions should be in the `channel last` format.
