@@ -9,7 +9,7 @@ It is modified based on Chengyao Wang's [implementation](https://github.com/Chen
 Note that this is not the official implementation. 
 
 ### Installation
-This code has been tested with Python 3.7. You may need to install numpy, scikit-image, and numba (and scikit-learn to try the examples) to use the code.
+This code has been tested with Python 3.7 and Python 3.8. Other dependent packages include: numpy, scikit-image, numba and scikit-learn.
 
 ### Contents
 * `saab.py`: Saab transform.
